@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T12:24:51.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nQ60bdlHSUEPFXh-JfOn" version="14.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-15T13:05:59.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kHtVmD8esS8Uob8CyeT1" version="14.0.1" type="github" pages="4">
   <diagram id="_qVUm6iLaWIp6vOudTp3" name="Page-1">
-    <mxGraphModel dx="3473" dy="4119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2040" dy="3136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,9 +8,12 @@
           <mxGeometry x="1430" y="80" width="936" height="888" as="geometry" />
         </mxCell>
         <mxCell id="xdtEvP8Q2jzrwDobVWz5-17" value="" style="group;fontFamily=Tahoma;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2610" y="-240" width="1640" height="2670" as="geometry" />
+          <mxGeometry x="2570" y="-183.92000000000002" width="1640" height="2670" as="geometry" />
         </mxCell>
-        <mxCell id="hAvt_gL7i4jlLCUetBiY-1" value="Client Net Init" style="fontSize=20;shadow=0;fontFamily=Lucida Console;sketch=1;fillStyle=auto;html=1;" vertex="1" parent="1">
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-56" value="" style="whiteSpace=wrap;html=1;sketch=0;strokeColor=#d79b00;fontFamily=Lucida Console;fontSize=20;fillStyle=zigzag;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="2677.11" y="1200" width="1380" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="hAvt_gL7i4jlLCUetBiY-1" value="Client NetDriver Init" style="fontSize=40;shadow=0;fontFamily=Lucida Console;sketch=0;fillStyle=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3031.78" y="60" width="670.66" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xdtEvP8Q2jzrwDobVWz5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=20;" edge="1" parent="1" source="xdtEvP8Q2jzrwDobVWz5-1">
@@ -122,23 +125,29 @@
             <mxPoint x="3337.434210526315" y="1969.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xdtEvP8Q2jzrwDobVWz5-15" value="Create ControlChannel" style="fontSize=20;shadow=0;fontFamily=Lucida Console;fillStyle=auto;html=1;" vertex="1" parent="1">
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-15" value="Create TFAChannel" style="fontSize=20;shadow=0;fontFamily=Lucida Console;fillStyle=auto;html=1;" vertex="1" parent="1">
           <mxGeometry x="3159.407894736842" y="1850" width="356.0526315789474" height="42.16" as="geometry" />
         </mxCell>
         <mxCell id="xdtEvP8Q2jzrwDobVWz5-16" value="Send NotifyHandshakeBegin" style="fontSize=20;shadow=0;fontFamily=Lucida Console;fillStyle=auto;html=1;" vertex="1" parent="1">
           <mxGeometry x="3170.1973684210525" y="1990" width="334.4736842105263" height="42.16" as="geometry" />
         </mxCell>
-        <mxCell id="xdtEvP8Q2jzrwDobVWz5-19" value="Create NetDriver" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="3658.421052631579" y="702.16" width="170" height="30" as="geometry" />
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-19" value="Create NetDriver" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3633.421052631579" y="697.16" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xdtEvP8Q2jzrwDobVWz5-50" value="Init Connect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="3650" y="812.16" width="130" height="30" as="geometry" />
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-50" value="Init Connect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3630" y="807.16" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xdtEvP8Q2jzrwDobVWz5-52" value="Channel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="3658.42" y="1856.08" width="90" height="30" as="geometry" />
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-52" value="Channel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3643.42" y="1851.08" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xdtEvP8Q2jzrwDobVWz5-53" value="Send" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="3673.42" y="1990" width="60" height="30" as="geometry" />
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-53" value="Send" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3672" y="1997.16" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-54" value="Scoket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3672" y="1381.08" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-58" value="ServerConnection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3592" y="1734" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
