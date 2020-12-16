@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T13:05:59.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kHtVmD8esS8Uob8CyeT1" version="14.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-16T03:19:40.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zplQxxqPsdT9CfOrgt-G" version="14.0.1" type="github" pages="4">
   <diagram id="_qVUm6iLaWIp6vOudTp3" name="Page-1">
-    <mxGraphModel dx="2040" dy="3136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3593" dy="3529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,6 +149,27 @@
         <mxCell id="xdtEvP8Q2jzrwDobVWz5-58" value="ServerConnection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontFamily=Lucida Console;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="3592" y="1734" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-59" value="我们需要创建NetDriver吗？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="4660" y="430.0000000000001" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-62" value="&lt;span&gt;Channel::&lt;/span&gt;Init(UNetConnection* InConnection, int32 InChannelIndex, EChannelCreateFlags CreateFlags)" style="whiteSpace=wrap;html=1;sketch=0;fillColor=#ffffff;gradientColor=none;fontFamily=Lucida Console;fontSize=26;strokeColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="4760" y="1916.5" width="1280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-66" value="UNetConnection::InitBase(UNetDriver* InDriver,class FSocket* InSocket, const FURL&amp;amp; InURL, EConnectionState InState, int32 InMaxPacket, int32 InPacketOverhead)" style="whiteSpace=wrap;html=1;sketch=0;strokeColor=#82B366;fillColor=#ffffff;gradientColor=none;fontFamily=Lucida Console;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="4780" y="1760" width="2021" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-69" value="bool UIpNetDriver::InitConnect( FNetworkNotify* InNotify, const FURL&amp;amp; ConnectURL, FString&amp;amp; Error )" style="whiteSpace=wrap;html=1;sketch=0;strokeColor=#82B366;fillColor=#ffffff;gradientColor=none;fontFamily=Lucida Console;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="4750" y="1357.5" width="1270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-70" value="&lt;span&gt;UNetConnection&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=0;strokeColor=#82B366;fontFamily=Lucida Console;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="4330" y="1750" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-71" value="&lt;span&gt;Channel&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=0;strokeColor=#82B366;fontFamily=Lucida Console;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="4330" y="1910" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xdtEvP8Q2jzrwDobVWz5-72" value="&lt;span&gt;UIpNetDriver&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=0;strokeColor=#82B366;fontFamily=Lucida Console;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="4330" y="1357.5" width="270" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -224,7 +245,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vkloa-0pTtfRUz40ZgOj" name="send">
-    <mxGraphModel dx="2547" dy="2349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3037" dy="2349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WrJ0A1nkW6iKMt3kR403-0" />
         <mxCell id="WrJ0A1nkW6iKMt3kR403-1" parent="WrJ0A1nkW6iKMt3kR403-0" />
@@ -325,6 +346,9 @@
         </mxCell>
         <mxCell id="EfPYjB7T1ygTCHq2gD38-12" value="Channel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WrJ0A1nkW6iKMt3kR403-1">
           <mxGeometry x="375" y="-118" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S1jBnZ0Q_HLZQ2xnkPEk-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pic4.zhimg.com/v2-273e7f3ddf4bfa3aaa314b081821e637_r.jpg;" vertex="1" parent="WrJ0A1nkW6iKMt3kR403-1">
+          <mxGeometry x="170" y="-900" width="824.39" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
